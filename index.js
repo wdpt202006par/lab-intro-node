@@ -67,7 +67,7 @@ class SortedList {
       throw new Error("EmptySortedList");
     }
     
-    return this.sum(this.items)/this.length;
+    return this.sum()/this.length;
   }
 }
 
